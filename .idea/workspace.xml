@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f55578a7-c08b-4330-9879-affcecbf6a9c" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/zero1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/aop/AccountLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/aop/AccountLockIdInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/controller/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/domain/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/AccountInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/CancelBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/DeleteAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/QueryTransactionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/TransactionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/UseBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/repository/TransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/service/LockAopAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/service/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/type/TransactionResultType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/type/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/test/http/transaction.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/test/java/com/example/account/controller/TransactionControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/test/java/com/example/account/service/LockAopAspectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/test/java/com/example/account/service/LockServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Account/src/test/java/com/example/account/service/TransactionServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lecture.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Account/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/main/java/com/example/account/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/main/java/com/example/account/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/main/java/com/example/account/domain/AccountUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/domain/AccountUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/AccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/AccountDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/CreateAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/dto/CreateAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/main/java/com/example/account/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/main/java/com/example/account/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/main/java/com/example/account/service/RedisTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/service/LockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/main/java/com/example/account/type/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/main/java/com/example/account/type/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/test/http/account.http" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/test/http/account.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/test/java/com/example/account/controller/AccountControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/test/java/com/example/account/controller/AccountControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account/src/test/java/com/example/account/service/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Account/src/test/java/com/example/account/service/AccountServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Account">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/Account">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Account" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GGR6LRF8Tszlidbb9LLzzdGmIA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "57bd9764120b7d4d144ef284b8fb6a57"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.account.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AccountApplication">
+    <configuration name="LockServiceTest.failGetLock" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Account" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.account.service.LockServiceTest.failGetLock&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="'Account.test'에 있는 테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Account" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="account | create acount" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Account/src/test/http/account.http" index="2" requestIdentifier="create acount" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="transaction | cancel balance" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Account/src/test/http/transaction.http" index="3" requestIdentifier="cancel balance" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="transaction | use balance" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Account/src/test/http/transaction.http" requestIdentifier="use balance" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Account.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.account.AccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 요청.transaction | cancel balance" />
+        <item itemvalue="HTTP 요청.transaction | use balance" />
+        <item itemvalue="HTTP 요청.account | create acount" />
+        <item itemvalue="Gradle.'Account.test'에 있는 테스트" />
+        <item itemvalue="Gradle.LockServiceTest.failGetLock" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="f55578a7-c08b-4330-9879-affcecbf6a9c" name="변경" comment="" />
+      <created>1666012761960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666012761960</updated>
+      <workItem from="1666012766090" duration="25701000" />
+      <workItem from="1666039525384" duration="2792000" />
+      <workItem from="1666090057087" duration="9373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Account/src/test/java/com/example/account/service/TransactionServiceTest.java</url>
+          <line>482</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
